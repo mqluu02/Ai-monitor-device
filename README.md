@@ -335,8 +335,4 @@ This frontend mockup demonstrates the potential for a comprehensive manufacturin
 
 The modular architecture demonstrated in this prototype allows for incremental development and deployment, enabling manufacturers to start with basic monitoring and gradually expand capabilities as needs grow.
 
----
 
-<div align="center">
-  <strong>Built for CNC professionals by developers who understand manufacturing</strong>
-</div>
