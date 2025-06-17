@@ -1,0 +1,11 @@
+- Add the ability to add users to a company 
+- Add the ability for SUPER ADMINS to create companies through the saas platform
+- Link authentication per company to each Raspberry device
+- Finalize streaming from raspberry Pis
+- Must create a setup script to install the required configuration on each Rasp PI (e.g AWS IoT Core, or the backend service )
+
+
+- Company creation page:
+  . Ask for name of the company, and also contact name, contact email.
+  . After company is created (a uuid will be generated on DB), then an email will be sent to the "contact email" and upon click
+  they will be added to the company

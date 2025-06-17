@@ -1,0 +1,144 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# production
+build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# turbo
+.turbo/
+
+# ide
+.idea/
+.vscode/
+.zed
+
+# contentlayer
+.contentlayer/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# Cache directories
+.turbo/
+.cache/
+node_modules/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output
+.jest/
+
+# Debugging
+.vscode/launch.json
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Supabase
+apps/web/supabase/.branches
+apps/web/supabase/.temp
+apps/web/supabase/logs
+apps/web/supabase/data
+
+# Local database
+*.sqlite
+*.sqlite3
+*.db
+
+# CNC monitoring specific
+# Video recordings (these should be in cloud storage)
+*.mp4
+*.avi
+*.mov
+public/recordings/
+
+# Machine configuration backups
+machine-configs/*.backup
+machine-configs/*.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Bundle analyzer
+.next/analyze/
+
+# Error logs
+error.log
+crash.log
+
+# Performance monitoring
+.webpack-bundle-analyzer/
+
+# Local development overrides
+docker-compose.override.yml
+.env.override
